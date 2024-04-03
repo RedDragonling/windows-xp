@@ -13,6 +13,7 @@
 
 --gradient-browser-hotbar: linear-gradient(0deg, rgba(26,74,183,1) 0%, rgba(26,74,183,1) 6%, rgba(38,100,225,1) 10%, rgba(33,91,214,1) 90%, rgba(69,140,238,1) 96%, rgba(38,100,225,1) 100%);
 --gradient-open-app: linear-gradient(0deg, rgba(38,100,225,1) 0%, rgba(69,140,238,1) 8%, rgba(69,140,238,1) 10%, rgba(55,133,241,1) 90%, rgba(82,162,255,1) 96%, rgba(69,140,238,1) 100%);
+--gradient-startbutton: linear-gradient(0deg, rgba(27,81,28,1) 0%, rgba(28,150,32,1) 8%, rgba(28,150,32,1) 10%, rgba(28,150,32,1) 90%, rgba(40,184,45,1) 96%, rgba(27,81,28,1) 100%);
 }
 
 /* All the colors needed for the authentic XP look */
@@ -21,6 +22,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Tahoma;
 }
 
 body {
@@ -68,6 +70,8 @@ footer {
 
 .start-menu {
   background-color: var(--start-green);
+  background: var(--gradient-startbutton);
+  border-radius: 0 10px 10px 0;
   text-align: center;
   font-weight: bold;
   width: 5em;

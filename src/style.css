@@ -11,7 +11,8 @@
 --font-color-blue: #0c2460;
 --font-color-white: #ffffffea;
 
---gradient-browser-hotbar: linear-gradient(0deg, rgba(26,74,183,1) 0%, rgba(26,74,183,1) 6%, rgba(38,100,225,1) 10%, rgba(33,91,214,1) 90%, rgba(69,140,238,1) 96%, rgba(38,100,225,1) 100%);;
+--gradient-browser-hotbar: linear-gradient(0deg, rgba(26,74,183,1) 0%, rgba(26,74,183,1) 6%, rgba(38,100,225,1) 10%, rgba(33,91,214,1) 90%, rgba(69,140,238,1) 96%, rgba(38,100,225,1) 100%);
+--gradient-open-app: linear-gradient(0deg, rgba(38,100,225,1) 0%, rgba(69,140,238,1) 8%, rgba(69,140,238,1) 10%, rgba(55,133,241,1) 90%, rgba(82,162,255,1) 96%, rgba(69,140,238,1) 100%);
 }
 
 /* All the colors needed for the authentic XP look */
@@ -79,11 +80,15 @@ footer {
 
 .running-apps {
   margin: 0 0 0 8px;
+  align-items: center;
 }
 
 .app {
   background-color: var(--windows-blue-highlight);
-  height: 100%;
+  background: var(--gradient-open-app);
+  height: 1.8rem;
   width: 5em;
   margin: 0 0 0 2px;
+  border-radius: 4px;
+  box-shadow: 0 0 3px var(--windows-blue-dark);
 }

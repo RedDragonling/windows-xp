@@ -41,6 +41,7 @@ main {
 
 footer {
   background-color: var(--windows-blue);
+  background: linear-gradient(0deg, rgba(26,74,183,1) 0%, rgba(26,74,183,1) 6%, rgba(38,100,225,1) 10%, rgba(33,91,214,1) 90%, rgba(69,140,238,1) 94%, rgba(69,140,238,1) 100%);
   color: white;
   height: 2rem;
   width: 100%;

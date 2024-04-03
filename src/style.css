@@ -71,6 +71,8 @@ footer {
   text-align: center;
   font-weight: bold;
   width: 5em;
+  justify-content: center;
+  align-items: center;
 }
 
 .meta-info {
@@ -91,4 +93,5 @@ footer {
   margin: 0 0 0 2px;
   border-radius: 4px;
   box-shadow: 0 0 3px var(--windows-blue-dark);
+  overflow: hidden;
 }

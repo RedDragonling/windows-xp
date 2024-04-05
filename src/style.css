@@ -15,6 +15,7 @@
 --gradient-open-app: linear-gradient(0deg, rgba(38,100,225,1) 0%, rgba(69,140,238,1) 8%, rgba(69,140,238,1) 10%, rgba(55,133,241,1) 90%, rgba(82,162,255,1) 96%, rgba(69,140,238,1) 100%);
 --gradient-startbutton: linear-gradient(0deg, rgba(27,81,28,1) 0%, rgba(28,150,32,1) 8%, rgba(28,150,32,1) 10%, rgba(28,150,32,1) 90%, rgba(40,184,45,1) 96%, rgba(27,81,28,1) 100%);
 --gradient-startbutton-hover: linear-gradient(0deg, rgba(27,81,28,1) 0%, rgba(40,184,45,1) 8%, rgba(40,184,45,1) 10%, rgba(40,184,45,1) 90%, rgb(80, 228, 73) 96%, rgba(27,81,28,1) 100%);
+--gradient-startbutton-active: linear-gradient(135deg, rgba(0,0,0,0.5)0%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
 --gradient-metadata: linear-gradient(0deg, rgba(14,117,191,1) 0%, rgba(18,156,235,1) 8%, rgba(18,156,235,1) 10%, rgba(15,137,224,1) 90%, rgba(36,190,245,1) 96%, rgba(18,156,235,1) 100%);
 }
 
@@ -119,6 +120,9 @@ footer {
 }
 .start-menu:hover {
   background: var(--gradient-startbutton-hover);
+}
+.start-menu:active {
+  background: var(--gradient-startbutton-active), var(--gradient-startbutton);
 }
 
 .meta-info {

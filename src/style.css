@@ -50,6 +50,14 @@ main {
   background-color: var(--windows-blue);
   background: var(--gradient-browser-hotbar);
   height: 1.5em;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.topbar-nav{
+  img {
+    height: 18px;
+  }
 }
 
 footer {
